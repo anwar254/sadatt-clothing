@@ -18,3 +18,8 @@ button{
 	width: 1291px!important;
 	min-width: 1291px!important;	
 }
+/*buttons*/
+.am-button{
+	padding: 15px;
+	background: #23d160;
+}
