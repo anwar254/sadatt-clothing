@@ -1,0 +1,20 @@
+button{
+	cursor: pointer;
+}
+.is-visible{
+	display: block!important;
+}
+.is-not-visible{
+	display: none!important;
+}
+.nav--hr{
+	width: 100%;
+	position: absolute;
+	top: 89px;
+	margin: 0 auto;
+	border-top: 1px solid #e5e5e5;
+}
+.container{
+	width: 1291px!important;
+	min-width: 1291px!important;	
+}
