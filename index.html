@@ -7,15 +7,60 @@
 	<link rel="stylesheet" type="text/css" href="css/bulma.css">
 	<link rel="stylesheet" type="text/css" href="css/master.css">
 	<link rel="stylesheet" type="text/css" href="css/app.css">
-	<link rel="stylesheet" type="text/css" href="css/font-awesome.min.css">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
 </head>
 	<body>
 		<main class="cart--main">
-			<div class="container">
-				<header class="cart--header"></header>
-				<section class="section cart--section"></section>
-				<footer class="cart--footer"></footer>
-			</div>
+			<header class="cart--header" id="header">
+				<div class="container">
+					<table width="100%" align="center">
+						<tbody>
+							<tr>
+								<td width="33.3333%">
+									<table>
+										<tbody>
+											<tr>
+												<td>
+													<div class="cart--burger">
+														<div aria-hidden="false"></div>
+														<div aria-hidden="false"></div>
+														<div aria-hidden="false"></div>
+													</div>
+												</td>
+												<td>
+													<button type="button" class="cart--search">
+														<span>
+															<i class="fas fa-search"></i>
+														</span>
+													</button>
+												</td>
+											</tr>
+										</tbody>
+									</table>
+								</td>
+								<td width="33.3333%"></td>
+								<td width="33.3333%">
+									<div class="cart--navigation">
+										<ul>
+											<li>
+												<button>
+													<i class="fas fa-user"></i>&nbsp;Account
+												</button>
+											</li>
+											<li>
+												<button>
+													<i class="fas fa-shopping-bag"></i>&nbsp;My bag
+												</button>
+											</li>
+										</ul>
+									</div>
+								</td>
+							</tr>
+						</tbody>
+					</table>
+				</div>
+			</header>
 		</main>
+
 	</body>
 </html>
