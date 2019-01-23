@@ -22,7 +22,7 @@ body .cart--main{
   position: relative;
   top: 7px;
   line-height: 45px;
-  /*height: 3.25rem;*/
+  height: 3.25rem;
   position: relative;
   width: 3.25rem;
   margin-left: auto;
@@ -33,6 +33,7 @@ body .cart--main{
   height: 2px;
   background-color: black;
   margin: 6px 0;
+  transition: width ease-in .5ms 2s;
 }
 .cart--main .cart--header .cart--burger div:nth-child(2){
   width: 50%;
