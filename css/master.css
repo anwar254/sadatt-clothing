@@ -13,11 +13,15 @@ body .cart--main{
 .cart--main .cart--header{
 	margin: 10px 0; /* Add padding 10px from the top and the bottom */
 	width: 100%;
+	height: 45px;
 }
 .cart--main .cart--header .cart--burger{
   color: #4a4a4a;
   cursor: pointer;
   display: block;
+  position: relative;
+  top: 7px;
+  line-height: 45px;
   /*height: 3.25rem;*/
   position: relative;
   width: 3.25rem;
@@ -41,6 +45,7 @@ body .cart--main{
 	background-color: transparent;
 	background: transparent;
 	outline: none;
+	line-height: 45px;
 }
 .cart--main .cart--header .cart--navigation ul{
 	display: flex;
@@ -50,6 +55,7 @@ body .cart--main{
 }
 .cart--main .cart--header .cart--navigation li{
 	margin: 0 10px;
+	line-height: 45px;
 }
 .cart--main .cart--header .cart--navigation li button{
 	background: transparent;
