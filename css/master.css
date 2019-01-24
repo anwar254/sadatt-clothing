@@ -33,7 +33,9 @@ body .cart--main{
   height: 2px;
   background-color: black;
   margin: 6px 0;
-  transition: width ease-in .5s;
+  -webkit-transition: all 0.3s ease-in-out;
+  -o-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
 }
 .cart--main .cart--header .cart--burger div:nth-child(2){
   width: 50%;
@@ -45,11 +47,31 @@ body .cart--main{
 .cart--main .cart--header .cart--burger:hover div{
 	background-color: #ffa45c;
 }
-.cart--main .cart--header .cart--burger:hover div:nth-child(1){
-	width: 25%;
-}
+.cart--main .cart--header .cart--burger:hover div:nth-child(1),
+.cart--main .cart--header .cart--burger:hover div:nth-child(2),
 .cart--main .cart--header .cart--burger:hover div:last-child{
-  width: 100%;
+	width: 80%;
+}
+.pushed .cart--burger {
+    margin: -3.2em 0 0 0.7em;
+}
+.pushed div:nth-child(1){
+	width: 80%!important;
+	background-color: #e5e5e5;
+	opacity: 0;
+	-webkit-transform: translateX(100%);
+	-ms-transform: translateX(100%);
+	-o-transform: translateX(100%);
+	transform: translateX(100%);
+}
+.pushed div:last-child{
+	width: 80%!important;
+	background-color: #e5e5e5;
+	opacity: 0;
+	-webkit-transform: translateX(-100%);
+	-ms-transform: translateX(-100%);
+	-o-transform: translateX(-100%);
+	transform: translateX(-100%);
 }
 .cart--main .cart--header button{
 	border: 0 solid transparent;
