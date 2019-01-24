@@ -16,7 +16,7 @@ button{
 }
 .cart--search--input{
 	width: 0;
-	display: none;
+	padding: 0;
 }
 .cart--input{
 	border: 0 solid transparent;
@@ -32,4 +32,8 @@ button{
 	width: 100%;
   	transition: width 0.3s ease-in-out;
 	display: block!important;
+	padding-bottom: calc(0.375em - 1px);
+	padding-left: calc(0.625em - 1px);
+	padding-right: calc(0.625em - 1px);
+	padding-top: calc(0.375em - 1px);
 }
