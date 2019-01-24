@@ -33,13 +33,23 @@ body .cart--main{
   height: 2px;
   background-color: black;
   margin: 6px 0;
-  transition: width ease-in .5ms 2s;
+  transition: width ease-in .5s;
 }
 .cart--main .cart--header .cart--burger div:nth-child(2){
   width: 50%;
 }
 .cart--main .cart--header .cart--burger div:last-child{
   width: 25%;
+  transition: width ease-in .5s;
+}
+.cart--main .cart--header .cart--burger:hover div{
+	background-color: #ffa45c;
+}
+.cart--main .cart--header .cart--burger:hover div:nth-child(1){
+	width: 25%;
+}
+.cart--main .cart--header .cart--burger:hover div:last-child{
+  width: 100%;
 }
 .cart--main .cart--header button{
 	border: 0 solid transparent;
