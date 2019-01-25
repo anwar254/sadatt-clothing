@@ -111,6 +111,14 @@ body .cart--main{
 .cart--main .cart--hero .cart--hero--text{
 	padding: 50px 0; 
 }
+.cart--main .cart--hero .cart--hero--text .cart--heading h1{
+	font-size: 4em;
+	font-weight: bold;
+	line-height: 1em;
+}
+.cart--main .cart--hero .cart--hero--text .cart--heading h1:last-child{
+	margin-bottom: 20px;
+}
 
 /* Add Zoom Animation */
 .animate {
