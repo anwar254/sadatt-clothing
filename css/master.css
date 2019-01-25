@@ -14,19 +14,22 @@ body .cart--main{
 	margin: 10px 0; /* Add padding 10px from the top and the bottom */
 	width: 100%;
 	height: 45px;
+	background-color: #fff;
 }
 .cart--main .cart--header .cart--burger{
   color: #4a4a4a;
   cursor: pointer;
   display: block;
-  position: relative;
-  top: 7px;
-  line-height: 45px;
-  height: 3.25rem;
-  position: relative;
+  /*line-height: 45px;*/
+/*  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);*/
+  height: 45px;
   width: 3.25rem;
   margin-left: auto;
-  padding: 0 10px;
+  /*padding: 0 10px;*/
+  padding-right: 10px;
+  z-index: 9999;
 }
 .cart--main .cart--header .cart--burger div{
   width: 100%;
@@ -45,7 +48,7 @@ body .cart--main{
   transition: width ease-in .5s;
 }
 .cart--main .cart--header .cart--burger:hover div{
-	background-color: #ffa45c;
+	background-color: #0ea5c6;
 }
 .cart--main .cart--header .cart--burger:hover div:nth-child(1),
 .cart--main .cart--header .cart--burger:hover div:nth-child(2),
@@ -98,6 +101,15 @@ body .cart--main{
 }
 .cart--main .cart--header .cart--navigation li:last-child{
 	margin-right: 0;
+}
+
+/*hero styling*/
+.cart--main .cart--hero{
+	width: 100%;
+	background: #a0edf7;
+}
+.cart--main .cart--hero .cart--hero--text{
+	padding: 50px 0; 
 }
 
 /* Add Zoom Animation */
