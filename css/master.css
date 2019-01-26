@@ -130,14 +130,27 @@ body .cart--main{
 	top: 105px;
 	/*bottom: 0;*/
 }
-.cart--hero--link{
+.cart--main .cart--hero .cart--hero--link{
 	margin-top: 20px;
 }
-.cart--hero--link a{
+.cart--main .cart--hero .cart--hero--link a{
 	font-size: 13px;
 	font-weight: bold;
 	color: #1c4650;
 }
+
+/*process*/
+.cart--main .cart--process table{
+	margin: 22px 0;
+}
+.cart--main .cart--process table h1{
+	font-size: 1.5em;
+	font-weight: 600;
+}
+.cart--main .cart--process table p{
+	font-size: 12px;
+}
+
 /* Add Zoom Animation */
 .animate {
     -webkit-animation: animatezoom 0.6s;
