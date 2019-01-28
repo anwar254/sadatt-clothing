@@ -106,6 +106,7 @@ body .cart--main{
 .cart--main .cart--hero{
 	width: 100%;
 	background: #a0edf7;
+	position: relative;
 }
 .cart--main .cart--hero .banner{
 	width: 80%;
@@ -114,7 +115,7 @@ body .cart--main{
 	padding: 50px 0; 
 }
 .cart--main .cart--hero .cart--hero--text .cart--heading h1{
-	font-size: 8em;
+	font-size: 6em;
 	font-weight: bold;
 	line-height: 1em;
 }
@@ -124,6 +125,7 @@ body .cart--main{
 .cart--main .cart--hero .cart--hero--image{
 	width: 100%;
 	position: relative;
+	bottom: 27px;
 }
 .cart--main .cart--hero .cart--hero--image img{
 	position: absolute;
