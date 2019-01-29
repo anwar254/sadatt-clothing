@@ -9,6 +9,31 @@ body .cart--main{
 	margin: 0 auto;
 	padding: 0;
 }
+
+div.cart--slide{
+	position: fixed;
+	background-color: rgb(255, 255, 255);
+	padding: 20px;
+	width: 20%;
+	height: auto;
+	z-index: 9988;
+	box-shadow: 2px 0 5px #4a4a4a;
+	top: 70px;
+	left: 119px;
+}
+div.cart--slide:before{
+	content: '';
+	position: absolute;
+	width: 10px;
+	height: 10px;
+	top: -19px;
+	left: 0;
+	border-left: 10px solid transparent;
+	border-top: 10px solid transparent;
+	border-bottom: 10px solid #fff;
+	border-right: 10px solid transparent;
+}
+
 /* Header styling */
 .cart--main .cart--header{
 	margin: 10px 0; /* Add padding 10px from the top and the bottom */
@@ -20,8 +45,9 @@ body .cart--main{
   color: #4a4a4a;
   cursor: pointer;
   display: block;
+  position: relative;
   /*line-height: 45px;*/
-/*  position: absolute;
+/*  
   top: 50%;
   transform: translateY(-50%);*/
   height: 45px;
