@@ -14,11 +14,10 @@ div.cart--nav--slide{
 	position: fixed;
 	background-color: rgb(255, 255, 255);
 	padding: 20px;
-	width: 20%;
 	height: auto;
 	z-index: 9988;
 	/*box-shadow: 2px 0 5px #4a4a4a;*/
-	top: 5px;
+	top: -280px;
 	left: 119px;
 	-webkit-transition: all 0.3s ease-in-out;
 	-o-transition: all 0.3s ease-in-out;
@@ -29,6 +28,23 @@ div.cart--nav--slide{
 	-ms-transform: translatey(0);
 	-o-transform: translatey(0);
 	transform: translatey(0);
+}
+div.cart--nav--slide ul{
+	width: 100%;
+	height: auto;
+}
+div.cart--nav--slide ul li{
+	padding: 10px 0;
+}
+div.cart--nav--slide ul li a{
+	width: 100%;
+	position: relative;
+	padding: 10px 72px;
+	text-align: center;
+	color: #4a4a4a;
+}
+div.cart--nav--slide ul li a:focus{
+	outline: 0;
 }
 div.cart--nav--slide:before{
 	content: '';
@@ -98,9 +114,10 @@ div.cart--nav--slide:before{
 .cart--main .cart--header .cart--burger:hover div:last-child{
 	width: 80%;
 }
-.pushed .cart--burger {
+/*.cart--burger.pushed {
     margin: -3.2em 0 0 0.7em;
-}
+    background-color: #a0edf7;
+}*/
 .pushed div:nth-child(1){
 	width: 80%!important;
 	background-color: #e5e5e5;
