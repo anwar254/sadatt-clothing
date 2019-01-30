@@ -1,18 +1,20 @@
 // animating the humberger menu
 const hum = document.getElementById("hum");
 const srcBtn =document.getElementById('search-btn');
+const menuDrop =  document.getElementById('nav--slide');
 
-
-function pushed(event) {
-	const elem = event.target;
-	if (elem.matches('.pushed')) {
-		elem.classList.remove('pushed')
-	}else{
-		elem.classList.add('pushed')
-	}
-}
 // listening for mouse click event
-hum.addEventListener('click', pushed)
+hum.addEventListener('click', event =>{
+	const elem = event.target;
+	if (elem.matches('.pushed') && menuDrop.matches('.pushed')) {
+		elem.classList.remove('pushed');
+		menuDrop.classList.remove('pushed');
+	}else{
+		elem.classList.add('pushed');
+		menuDrop.classList.add('pushed');
+	}
+});
+
 
 // listening for the search button click event
 srcBtn.addEventListener('click', ()=>{
@@ -21,3 +23,5 @@ srcBtn.addEventListener('click', ()=>{
 
 	inp.classList.add('pushed');
 })
+
+// navigation menu
